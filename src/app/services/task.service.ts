@@ -13,8 +13,7 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl =
-    'https://my-json-server.typicode.com/g-llima/Task-Tracker/tasks';
+  private apiUrl = 'http://localhost:5000/tasks';
 
   constructor(private http: HttpClient) {}
 
