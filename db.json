@@ -23,6 +23,12 @@
       "day": "121212",
       "reminder": false,
       "id": 4
+    },
+    {
+      "text": "h",
+      "day": "hg",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

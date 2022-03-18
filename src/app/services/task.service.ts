@@ -13,7 +13,7 @@ const httpOptions = {
   providedIn: 'root',
 })
 export class TaskService {
-  private apiUrl = 'http://localhost:5000/tasks';
+  private apiUrl = 'https://angular-tasktracker-app.herokuapp.com/tasks';
 
   constructor(private http: HttpClient) {}
 
