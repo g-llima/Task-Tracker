@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 const url = "/dist/task-tracker";
 app.use(express.static(__dirname + url));
